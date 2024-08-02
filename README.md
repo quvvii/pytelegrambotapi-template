@@ -4,7 +4,14 @@ This project was created in order to help beginners get used to PyTelegramBotAPI
 
 
 ## Installation
-
+Copy repo:
+```bash
+git clone https://github.com/quvvii/pytelegrambotapi-template
+```
+Download libraries:
+```bash
+pip install -r requirements.txt
+```
 Create `.env` file:
 ```env
 TOKEN=YOUR_BOT_TOKEN
