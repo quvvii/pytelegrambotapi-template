@@ -8,6 +8,10 @@ Copy repo:
 ```bash
 git clone https://github.com/quvvii/pytelegrambotapi-template
 ```
+Go to repo:
+```bash
+cd pytelegrambotapi-template
+```
 Download libraries:
 ```bash
 pip install -r requirements.txt
