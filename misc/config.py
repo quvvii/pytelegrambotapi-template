@@ -1,7 +1,11 @@
 from environs import Env
 
-env = Env()
-env.read_env()
+class Config:
+    def __init__(self):
+        self.env = Env()
+        self.env.read_env()
 
-token: str = env.str('TOKEN')
-admin_id: int = env.int('ADMIN_ID')
+        self.token: str = self.env.str("TOKEN")
+        self.admin_id: int = self.env.int("ADMIN_ID")
+
+config = Config()

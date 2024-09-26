@@ -9,8 +9,8 @@ def on_startup():
     logger.info('START BOT')
 
     bot.add_custom_filter(IsAdminFilter())
-
     bot.infinity_polling(skip_pending=True)
 
+# RUN BOT
 if __name__ == '__main__':
     on_startup()

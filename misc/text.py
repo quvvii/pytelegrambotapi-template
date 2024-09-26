@@ -1,3 +1,2 @@
-start_msg = "<b>Привет, {name}!</b>"
-
-echo_msg = "<i>Это эхо-команда! Ты написал:</i>\n{msg_text}"
+START_MSG = "<b>Привет, {name}!</b>"
+ECHO_MSG = "<i>Это эхо-команда! Ты написал:</i>\n{msg_text}"
